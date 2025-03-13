@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flexbox Layout</title>
+        <style>
+        .container {
+            /* Define the container as a flex container */
+            display: flex;
+            
+            flex-direction: column;
+            /* Distribute items with space between */
+            justify-content: center; 
+            /* Align items vertically */
+            align-items: center; 
+            /* Set to 100% viewport height */
+            height: 100%;
+
+            background-color: #004DFF;
+        }
+
+        .item1 {
+            width: 1000px;
+            height: 525px;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: white;
+            text-align: center;
+            margin: 10px;
+        }
+
+        .item2 {
+            width: 1000px;
+            height: 225px;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: white;
+            text-align: center;
+            margin: 10px;
+        }
+
+        .item3 {
+            width: 400px;
+            height: 300px;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: white;
+            text-align: center;
+            margin: 10px;
+        }
+
+        .item4 {
+            width: 96.5%;
+            height: 40px;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: rgb(0, 12, 100);
+            text-align: center;
+        }
+
+        h1
+        {
+            color: black;
+            font-size: 20px;
+        }
+
+        p
+        {
+            color: black;
+            font-size: 12px;
+        }
+
+        dl
+        {
+            text-align: start;
+            color: black;
+        }
+
+        dt
+        {
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+        dd
+        {
+            font-size: 10px;
+        }
+
+        footer
+        {
+            color: white;
+            font-size: 18px;
+        }
+        </style>
+</head>
+<body>
+        <div class="container">
+        <div class="item1">
+            <h1>About Me</h1>
+
+            <p>
+                Hello! My name is Tyler Nguyen and I am a student at Saddleback Community College in Mission Viejo.
+                I graduated high school at Aliso Niguel High School with high honors for a exemplary grade point average.
+                I plan to transfer to the University of California Irvine as a Computer Engineering Major. I have
+                experience working with customers to complete orders to their satisfaction and
+                prepare packaged food for fast service. 
+            </p>
+
+            <img src="https://lh3.googleusercontent.com/pw/AP1GczO3MMi0gy-UQoMrG-Sa57XvTts4cY01b8nU8MdAHU5yRrPvr9tvZsp_Hn_I99PDJ1zUTlxtZHY5gO13tUejEG8r51ZO33EJJFRSqniEJss0S1LQBg=w2400"
+            width=30%>
+        </div>
+
+        <div class="item2">
+            <h1>My Projects</h1>
+
+            <dl>
+                <dt>- Binary to Decimal converter in Hack Assembly Language</dt>
+                <dd>In this project for CS3A at Saddleback College, my project group used Hack Assembly Language to manually create a binary to decimal 
+                    number converter with display and input functionality. Hack Assembly Language is a low-level, open-source
+                    programming language </dd>
+                <dt>- Parking lot capacity tracker in Java</dt>
+                <dd>In this project for AP Computer Science A at Aliso Niguel High School, I used Java to implement a three-dimensional 
+                    array that represented spots in a parking structure. I created an interface to update the spots in that lot and recommend
+                    the best spot to park given the current conditions. This was my first project, so the programming is relatively
+                    elementary. Java is a high-level programming language that is often used for web and mobile applications.</dd>
+                <dt>- Tic Tac Toe simulator in C++</dt>
+                <dd>In this project for CS1B at Saddleback College, I used C++ to implement a game of tic-tac-toe where the user could
+                    choose to play against the program or play against another person using the same computer. C++ is a high-level programming 
+                    language often used for high performance applications. </dd>
+                <dt>- Spaghetti recipe project in HTML</dt>
+                <dd>In this project, I exercised elementary concepts of HTML to create a small site containing a spaghetti recipe.
+                    <a href="https://tylertnguyen1.github.io/htmlspaghettirecipe/">Link to webpage</a> </dd>
+            
+            </dl>
+        </div>
+
+        <div class="item3">
+            <h1>Skills</h1>
+
+            <dl>
+                <dt>- Programming languages</dt>
+                <dd>Knowledge of syntax in Java, C++, Python, HTML, and Hack</dd>
+                <dt>- Group work</dt>
+                <dd>Completed CS1C project course as well as group projects in many other classes</dd>
+                <dt>- Customer service experience</dt>
+                <dd>Worked in a quick-service environment to meet and exceed customer needs</dd>
+                <dt>- Languages</dt>
+                <dd>Beginner level French and Vietnamese speaker</dd>
+                <dt>- Character traits</dt>
+                <dd>Hard-working student with good work ethic and determination to fulfill needed tasks</dd>
+                <dt>- Education</dt>
+                <dd>High school graduate from Aliso Niguel High School and currently enrolled at Saddleback College</dd>
+                <dt>- Additional information</dt>
+                <dd>Reliable transformation, flexible schedule, part-time availability</dd>
+            </dl>
+        </div>
+
+        <div class="item4">
+            <footer>
+                <small>&copy; 2025 Tyler T. Nguyen, Laguna Niguel, CA. All Rights Reserved.</small>
+            </footer>
+        </div>
+
+        </div>
+</body>
+</html>
